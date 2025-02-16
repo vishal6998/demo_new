@@ -1,0 +1,681 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-btn.eltdf-btn-large, .eltdf-btn.eltdf-btn-huge {
+    padding: 9px 39px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Call To Action shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .eltdf-call-to-action-holder .eltdf-grid {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-text-holder, .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-text-holder {
+    width: 66.66666666666667%;
+  }
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-button-holder, .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-button-holder {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-inner,
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-button-holder {
+    display: block;
+  }
+  .eltdf-call-to-action-holder.eltdf-normal-layout .eltdf-cta-button-holder {
+    margin: 28px 0 0;
+    text-align: initial;
+  }
+  .eltdf-call-to-action-holder.eltdf-two-halves-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-two-halves-columns .eltdf-cta-button-holder, .eltdf-call-to-action-holder.eltdf-two-thirds-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-two-thirds-columns .eltdf-cta-button-holder, .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-three-quarters-columns .eltdf-cta-button-holder, .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-text-holder,
+  .eltdf-call-to-action-holder.eltdf-four-fifths-columns .eltdf-cta-button-holder {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-countdown .countdown-row.countdown-show4 .countdown-section, .eltdf-countdown .countdown-row.countdown-show5 .countdown-section, .eltdf-countdown .countdown-row.countdown-show6 .countdown-section {
+    width: 33.33333333333333%;
+  }
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Custom Font shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-custom-font-holder.eltdf-disable-title-break br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1366.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-768.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-680.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-two-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-three-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-four-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-five-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-six-columns .eltdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: left;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: right;
+  }
+  .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+    text-align: center;
+  }
+  .eltdf-elements-holder .eltdf-eh-item-content {
+    padding: 0 10px;
+  }
+}
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Google Map shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Google Map shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+# Preview Slider - begin
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-preview-slider {
+    display: block;
+  }
+  .eltdf-preview-slider .eltdf-ps-text-holder.right {
+    padding: 0;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-laptop-slider {
+    width: 100%;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-tablet-slider {
+    left: 41%;
+    top: 9.8%;
+    width: 100%;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-mobile-slider {
+    width: 100%;
+    height: 100%;
+    left: 56%;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-tablet-holder {
+    width: 30%;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-mobile-holder {
+    width: 16%;
+    left: 320px;
+    bottom: 35px;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-laptop-frame,
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-tablet-frame,
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-phone-frame,
+  .eltdf-preview-slider .eltdf-ps-images-holder .eltdf-ps-phone-mask {
+    max-width: initial;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner {
+    display: block;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-tablet-holder, .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-mobile-holder {
+    display: none;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-laptop-holder {
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-laptop-holder > img {
+    z-index: 1;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-laptop-holder .eltdf-ps-laptop-frame {
+    max-width: 100%;
+  }
+  .eltdf-preview-slider .eltdf-ps-images-holder-inner .eltdf-ps-laptop-holder .eltdf-ps-laptop-slider {
+    width: 71.5%;
+  }
+}
+
+/* ==========================================================================
+# Preview Slider - end
+========================================================================== */
+/* ==========================================================================
+   Pricing List shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .eltdf-pricing-holder .eltdf-pricing-title,
+  .eltdf-pricing-holder .eltdf-pricing-img {
+    display: inline-block;
+    width: auto;
+  }
+  .eltdf-pricing-holder .eltdf-pricing-img {
+    margin-bottom: 16px;
+  }
+  .eltdf-pricing-holder .eltdf-pricing-title {
+    white-space: normal;
+  }
+  .eltdf-pricing-holder .eltdf-pricing-price {
+    display: block;
+    width: auto;
+    padding-left: 0;
+    margin: 2px 0 7px;
+    white-space: normal;
+  }
+  .eltdf-pricing-holder .eltdf-pricing-dots {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Pricing List shortcode responsive styles - end
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-holder {
+    width: 48%;
+    margin: 0 2% 2% 0;
+    padding-right: 20px;
+  }
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-holder.eltdf-rf-btn-holder {
+    width: 48%;
+    margin: 0 2% 2% 0;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-holder:nth-child(-n+2) {
+    padding-bottom: 20px;
+  }
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-text {
+    display: none;
+  }
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-copyright {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-holder {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .eltdf-rf-holder:not(.eltdf-rf-block) .eltdf-rf-col-holder.eltdf-rf-btn-holder {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding-left: 0;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-section-title-holder {
+    padding: 0 !important;
+  }
+  .eltdf-section-title-holder.eltdf-st-disable-title-break .eltdf-st-title br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-section-title-holder .eltdf-st-title-holder .decor:first-of-type {
+    left: -14px;
+  }
+  .eltdf-section-title-holder .eltdf-st-title-holder .decor:last-of-type {
+    right: -14px;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Stacked Images responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    right: 85px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    left: 85px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    right: 75px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    left: 75px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    right: 70px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    right: 70px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    top: 40px;
+    right: 50px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    top: 40px;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    top: 89px;
+    right: 181px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    top: 89px;
+    left: 181px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-second-image {
+    right: 20px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    right: 40px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-second-image {
+    left: 20px;
+  }
+  .eltdf-stacked-images-holder.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    left: 40px;
+  }
+  .eltdf-stacked-images-holder .eltdf-si-images.eltdf-appeared .eltdf-si-first-image,
+  .eltdf-stacked-images-holder .eltdf-si-images.eltdf-appeared .eltdf-si-third-image {
+    top: 24px;
+  }
+  .eltdf-stacked-images-holder.eltdf-background-svg.eltdf-si-position-left .eltdf-si-images .eltdf-si-first-image {
+    top: -32px;
+    right: -64px;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  .eltdf-stacked-images-holder.eltdf-background-svg.eltdf-si-position-right .eltdf-si-images .eltdf-si-first-image {
+    top: -26px;
+    left: -32px;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+}
+
+/* ==========================================================================
+   Stacked Images responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .eltdf-tabs.eltdf-tabs-standard .eltdf-tabs-nav li a {
+    padding: 7px 21px;
+  }
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li {
+    margin: 0 8px 0 0;
+  }
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li a {
+    padding: 7px 18px;
+  }
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    margin: 0 26px 0 0;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav {
+    width: 180px;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    width: calc(100% - 180px);
+    padding: 0 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .eltdf-tabs.eltdf-tabs-standard .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+  }
+  .eltdf-tabs.eltdf-tabs-standard .eltdf-tabs-nav li a {
+    width: 100%;
+  }
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 8px;
+  }
+  .eltdf-tabs.eltdf-tabs-boxed .eltdf-tabs-nav li a {
+    width: 100%;
+  }
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    margin: 0 20px 0 0;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav,
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav {
+    border-right: 0;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tab-container {
+    padding: 31px 0 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav {
+    padding: 0 0 20px;
+  }
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .eltdf-tabs.eltdf-tabs-simple .eltdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .eltdf-tabs.eltdf-tabs-vertical .eltdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  body.eltdf-vss-initialized {
+    overflow-y: visible !important;
+    height: auto !important;
+  }
+  .eltdf-vertical-split-slider,
+  #multiscroll-nav {
+    display: none;
+  }
+  .eltdf-vss-responsive {
+    display: block;
+  }
+  .eltdf-vss-responsive .eltdf-vss-ms-section .ms-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+  }
+  .eltdf-vss-responsive .eltdf-vss-ms-section:not(:first-child) {
+    height: 100vh !important;
+  }
+}
+
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/laurent-core/assets/css/shortcodes-map-responsive.css.map */

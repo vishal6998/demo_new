@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Pricing List shortcode responsive styles - begin
+   ========================================================================== */
+
+@include phone-landscape {
+
+    .eltdf-pricing-holder {
+
+        .eltdf-pricing-title,
+        .eltdf-pricing-img {
+            display: inline-block;
+            width: auto;
+        }
+    
+        .eltdf-pricing-img {
+            margin-bottom: 16px;
+        }
+
+        .eltdf-pricing-title {
+            white-space: normal;
+        }
+
+        .eltdf-pricing-price {
+            display: block;
+            width: auto;
+            padding-left: 0;
+            margin: 2px 0 7px;
+            white-space: normal;
+        }
+
+        .eltdf-pricing-dots {
+            display: none;
+        }
+    }
+}
+
+/* ==========================================================================
+   Pricing List shortcode responsive styles - end
+   ========================================================================== */
+
+

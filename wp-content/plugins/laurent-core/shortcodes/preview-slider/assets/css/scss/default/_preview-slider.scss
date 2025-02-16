@@ -1,0 +1,174 @@
+/* ==========================================================================
+# Preview Slider - begin
+========================================================================== */
+
+.eltdf-preview-slider {
+	display: block;
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+	
+	&.eltdf-preview-slider-loaded {
+		opacity: 1;
+	}
+
+    .slick-slide {
+        border: none;
+    }
+	
+	.eltdf-ps-images-holder {
+		max-width: 100%;
+		display: block;
+		vertical-align: middle;
+		position: relative;
+		text-align: left;
+		
+		.eltdf-ps-tablet-holder {
+			position: absolute;
+			display: inline-block;
+			width: 48%;
+			z-index: 10;
+			opacity: 0;
+			left:11.4%;
+			bottom: 20px;
+			transform: translateY(20px);
+			transition: transform 1s, opacity .5s;
+			
+			> img {
+				position: relative;
+				z-index: 10;
+			}
+		}
+		
+		.eltdf-ps-tablet-slider {
+			position: absolute;
+			top: 10.4%;
+			left: 21%;
+			width: 50.5%;
+			overflow: hidden;
+			z-index: 11;
+			
+			@media (max-width: 1680px) {
+				left:24.2%;
+			}
+			
+			@media (max-width: 1440px) {
+				left:25%;
+			}
+
+			.slick-track {
+				margin-top: -1px;
+			}
+		}
+		
+		.eltdf-ps-laptop-holder {
+			position: relative;
+			display: inline-block;
+			width: 911px;
+			z-index: 5;
+			opacity: 0;
+			transform: translateY(20px);
+			transition: transform 1s, opacity .5s;
+			margin-bottom: 100px;
+			
+			@include laptop-landscape-large {
+				width: 100%;
+			}
+			
+			> img {
+				position: relative;
+				z-index: 5;
+			}
+		}
+		
+		.eltdf-ps-laptop-slider {
+			position: absolute;
+			width: 71.5%;
+			top: 10%;
+			left: 13.25%;
+			overflow: hidden;
+			z-index: 11;
+			bottom: 13.5%;
+		}
+		
+		.eltdf-ps-mobile-holder {
+			position: absolute;
+			display: inline-block;
+			z-index: 20;
+			left: 31.5%;
+			bottom: -14px;
+			opacity: 0;
+			transform: translateY(20px);
+			transition: transform 1s, opacity .5s;
+			
+			> img {
+				position: relative;
+				z-index: 10;
+				
+				&.eltdf-ps-phone-mask {
+					position: absolute;
+					z-index: 22;
+					top: 27px;
+					left: 72px;
+				}
+			}
+		}
+		
+		.eltdf-ps-mobile-slider {
+			position: absolute;
+			top: 11.5%;
+			left: 31%;
+			overflow: hidden;
+			z-index: 11;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		
+		img {
+			vertical-align: middle;
+		}
+	}
+	
+	.eltdf-ps-images-holder-inner {
+		display: flex;
+		vertical-align: middle;
+		position: relative;
+		align-items: flex-end;
+	}
+	
+	.eltdf-slick-dots-with-number {
+		margin: 47px 0;
+		
+		li {
+			display: inline-block;
+			width: 43px;
+			height: 43px;
+			line-height: 39px;
+			margin-right: 8px;
+			box-sizing: border-box;
+			border-radius: 43px;
+			border: 2px solid $default-border-color;
+			font-size: 16px;
+			text-align: center;
+			font-weight: 700;
+			color: #acacac;
+			transition: background-color 0.2s ease-out, border-color 0.2s ease-out, color 0.2s ease-out;
+			cursor: pointer;
+			
+			.eltdf-slick-dot-number {
+				display: block;
+			}
+			
+			&.slick-active {
+				background-color: #1c1e1f;
+				border-color: #1c1e1f;
+				color: #e9dfdf;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+# Preview Slider - end
+========================================================================== */

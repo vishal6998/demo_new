@@ -1,0 +1,47 @@
+@include ipad-landscape {
+
+    .eltdf-rf-holder:not(.eltdf-rf-block) {
+
+        .eltdf-rf-col-holder {
+            width: 48%;
+            margin: 0 2% 2% 0;
+	        padding-right: 20px;
+
+            &.eltdf-rf-btn-holder {
+                width: 48%;
+                margin: 0 2% 2% 0;
+                padding-left: 0;
+                padding-right: 20px;
+            }
+    
+            &:nth-child(-n+2) {
+                padding-bottom: 20px;
+            }
+        }
+
+        .eltdf-rf-col-text {
+            display: none;
+        }
+
+        .eltdf-rf-copyright {
+            margin-top: 0;
+        }
+    }
+}
+
+@include phone-portrait {
+
+    .eltdf-rf-holder:not(.eltdf-rf-block) {
+
+        .eltdf-rf-col-holder {
+            width: 100%;
+            margin: 0 0 20px 0;
+
+            &.eltdf-rf-btn-holder {
+                width: 100%;
+                margin:  0 0 20px 0;
+                padding-left: 0;
+            }
+        }
+    }
+}

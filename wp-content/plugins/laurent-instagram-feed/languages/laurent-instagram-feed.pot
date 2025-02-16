@@ -1,0 +1,186 @@
+# Copyright (C) 2024 Elated Themes
+# This file is distributed under the same license as the Laurent Instagram Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Laurent Instagram Feed 2.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/laurent-instagram-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-13T15:51:23+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1-windows\n"
+"X-Domain: laurent-instagram-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Laurent Instagram Feed"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://qodeinteractive.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds Instagram feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Elated Themes"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:10
+msgid "Instagram List"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:25
+msgid "General"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:33
+#: shortcodes/instagram-list/instagram-list.php:38
+#: widgets/laurent-instagram-widget.php:41
+msgid "Number of Columns"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:36
+msgid "Default value is Three"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:44
+#: shortcodes/instagram-list/instagram-list.php:45
+#: widgets/laurent-instagram-widget.php:32
+msgid "Type"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:47
+#: shortcodes/instagram-list/instagram-list.php:47
+#: widgets/laurent-instagram-widget.php:34
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:48
+#: shortcodes/instagram-list/instagram-list.php:48
+#: widgets/laurent-instagram-widget.php:35
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:59
+#: shortcodes/instagram-list/instagram-list.php:54
+#: widgets/laurent-instagram-widget.php:58
+msgid "Space Between Items"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:69
+#: shortcodes/instagram-list/instagram-list.php:60
+#: widgets/laurent-instagram-widget.php:53
+msgid "Number of Photos"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:78
+#: shortcodes/instagram-list/instagram-list.php:65
+#: widgets/laurent-instagram-widget.php:70
+msgid "Images Cache Time"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:87
+#: shortcodes/instagram-list/instagram-list.php:73
+#: widgets/laurent-instagram-widget.php:64
+msgid "Show Instagram Icon"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:99
+#: shortcodes/instagram-list/instagram-list.php:82
+#: shortcodes/instagram-list/instagram-list.php:90
+#: shortcodes/instagram-list/instagram-list.php:97
+#: shortcodes/instagram-list/instagram-list.php:104
+#: shortcodes/instagram-list/instagram-list.php:112
+#: shortcodes/instagram-list/instagram-list.php:120
+msgid "Slider Settings"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:107
+#: shortcodes/instagram-list/instagram-list.php:79
+msgid "Enable Slider Loop"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:117
+#: shortcodes/instagram-list/instagram-list.php:87
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:127
+#: shortcodes/instagram-list/instagram-list.php:95
+msgid "Slide Duration"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:129
+#: shortcodes/instagram-list/instagram-list.php:96
+msgid "Default value is 5000 (ms)"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:137
+#: shortcodes/instagram-list/instagram-list.php:102
+msgid "Slide Animation Duration"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:139
+#: shortcodes/instagram-list/instagram-list.php:103
+msgid "Speed of slide animation in milliseconds. Default value is 600."
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:147
+#: shortcodes/instagram-list/instagram-list.php:109
+msgid "Enable Slider Navigation Arrows"
+msgstr ""
+
+#: shortcodes/instagram-list/elementor-instagram-list.php:157
+#: shortcodes/instagram-list/instagram-list.php:117
+msgid "Enable Slider Pagination"
+msgstr ""
+
+#: shortcodes/instagram-list/instagram-list.php:29
+msgid "Elated Instagram List"
+msgstr ""
+
+#: shortcodes/instagram-list/instagram-list.php:31
+msgid "by LAURENT"
+msgstr ""
+
+#: shortcodes/instagram-list/templates/holder.php:22
+msgid "It seems that you haven't connected with your Instagram account"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:13
+msgid "Laurent Instagram Widget"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:15
+msgid "Display your Instagram feed"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:27
+msgid "Title"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:43
+msgid "Two"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:44
+msgid "Three"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:45
+msgid "Four"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:46
+msgid "Six"
+msgstr ""
+
+#: widgets/laurent-instagram-widget.php:47
+msgid "Nine"
+msgstr ""

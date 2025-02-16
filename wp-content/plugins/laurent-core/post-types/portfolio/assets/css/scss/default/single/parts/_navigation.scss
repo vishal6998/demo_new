@@ -1,0 +1,113 @@
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+
+.eltdf-ps-navigation {
+	position: relative;
+	display: table;
+	width: 100%;
+	vertical-align: middle;
+	padding: 0;
+	margin: 92px 0 34px;
+	clear: both;
+    box-sizing: border-box;
+
+    .eltdf-ps-full-width-custom-layout & {
+        padding: 0 40px;
+    }
+	
+	.eltdf-ps-back-btn {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: inline-block;
+		vertical-align: middle;
+		transform: translateX(-50%) translateY(-50%);
+		
+		a {
+			position: relative;
+			display: inline-flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0;
+			padding: 0;
+			width: 19px;
+			height: 19px;
+			vertical-align: middle;
+			cursor: pointer;
+			
+			div {
+				width:6px;
+				height: 6px;
+				border-radius: 50%;
+				border: 1px solid $first-main-color;
+				box-sizing: border-box;
+				
+				&:first-of-type {
+					margin-bottom: 7px;
+				}
+				
+				&:nth-of-type(2n+1) {
+					margin-right: 7px;
+				}
+			}
+			
+		}
+	}
+	
+	.eltdf-ps-prev,
+	.eltdf-ps-next {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		width: 49%;
+		padding: 0;
+		box-sizing: border-box;
+		
+		a {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			height: 20px;
+			color: $first-main-color;
+			
+			svg {
+				stroke: currentColor;
+			}
+		}
+	}
+	
+	.eltdf-ps-prev {
+		
+		a {
+			@include eltdfPopoutSVGArrows();
+			
+			svg {
+				stroke-width: 2px;
+			}
+			
+			&:hover {
+				@include eltdfPopoutSVGArrowsHover();
+			}
+		}
+	}
+	
+	.eltdf-ps-next {
+		text-align: right;
+		
+		a {
+			@include eltdfPopoutSVGArrows();
+			
+			svg {
+				stroke-width: 2px;
+			}
+			
+			&:hover {
+				@include eltdfPopoutSVGArrowsHover();
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */

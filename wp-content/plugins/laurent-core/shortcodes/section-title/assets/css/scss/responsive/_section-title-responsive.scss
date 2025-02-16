@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+
+@include ipad-portrait {
+	
+	.eltdf-section-title-holder {
+		padding: 0 !important; // it can be set inline in shortcode options
+		
+		&.eltdf-st-disable-title-break {
+			
+			.eltdf-st-title {
+				
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@include phone-landscape {
+	
+	.eltdf-section-title-holder .eltdf-st-title-holder {
+		.decor {
+			&:first-of-type {
+				left:-14px
+			}
+			
+			&:last-of-type {
+				right: -14px;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+
+

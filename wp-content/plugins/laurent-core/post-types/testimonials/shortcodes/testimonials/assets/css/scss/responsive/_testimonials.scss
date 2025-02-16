@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Testimonials shortcode responsive style - begin
+   ========================================================================== */
+
+.eltdf-testimonials-holder .eltdf-testimonials {
+	@include laptop-landscape-large {
+		padding: 0 10%;
+		
+		.eltdf-testimonial-text {
+			padding: 0;
+		}
+		
+		.owl-nav {
+			.owl-prev {
+				left: 1%;
+			}
+			
+			.owl-next {
+				right: 1%;
+			}
+		}
+	}
+	
+	@include phone-portrait{
+		
+		.owl-nav {
+			display: none;
+		}
+	}
+}
+
+/* ==========================================================================
+   Testimonials shortcode responsive style - end
+   ========================================================================== */

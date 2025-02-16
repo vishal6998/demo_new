@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Portfolio Single - Slider layout style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+	
+	&.eltdf-ps-slider-layout {
+		
+		.eltdf-ps-image-holder {
+			margin: 0 0 26px;
+			
+			.eltdf-ps-image-inner {
+				visibility: hidden;
+			}
+			
+			.eltdf-ps-image {
+				
+				img {
+					width: 100%;
+				}
+			}
+			
+			.eltdf-owl-slider .owl-nav {
+				.owl-prev {
+					left: 20px;
+				}
+				
+				.owl-next {
+					right: 20px;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single - Slider layout style - end
+   ========================================================================== */

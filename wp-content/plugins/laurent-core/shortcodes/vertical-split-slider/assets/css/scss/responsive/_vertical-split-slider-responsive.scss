@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+
+    body.eltdf-vss-initialized {
+        overflow-y: visible !important;
+        height: auto !important;
+    }
+
+    .eltdf-vertical-split-slider,
+    #multiscroll-nav {
+        display: none;
+    }
+
+    .eltdf-vss-responsive {
+        display: block;
+    }
+
+    .eltdf-vss-responsive {
+
+        .eltdf-vss-ms-section {
+
+            .ms-tableCell {
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                height: 100%;
+            }
+
+            &:not(:first-child) {
+                height: 100vh !important;
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - end
+   ========================================================================== */

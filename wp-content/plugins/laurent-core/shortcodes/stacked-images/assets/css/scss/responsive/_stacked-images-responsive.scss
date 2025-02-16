@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Stacked Images responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape-large {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    right: 85px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    left: 85px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    right: 75px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    left: 75px;
+                }
+            }
+        }
+    }
+}
+
+@include laptop-landscape-mac {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    right: 70px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    left: 70px;
+                }
+            }
+        }
+    }
+}
+
+@include laptop-landscape-mac {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    right: 70px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    left: 70px;
+                }
+            }
+        }
+    }
+}
+
+@include laptop-landscape-medium {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    top: 40px;
+                    right: 50px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    top: 40px;
+                    left: 50px;
+                }
+            }
+        }
+    }
+}
+
+@include ipad-landscape {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    top: 89px;
+                    right: 181px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-first-image {
+                    top: 89px;
+                    left: 181px;
+                }
+            }
+        }
+    }
+}
+
+@include phone-portrait {
+
+    .eltdf-stacked-images-holder {
+
+        &.eltdf-si-position-left {
+
+            .eltdf-si-images {
+
+                .eltdf-si-second-image {
+                    right: 20px;
+                }
+
+                .eltdf-si-first-image {
+                    right: 40px;
+                }
+            }
+        }
+
+        &.eltdf-si-position-right {
+
+            .eltdf-si-images {
+
+                .eltdf-si-second-image {
+                    left: 20px;
+                }
+
+                .eltdf-si-first-image {
+                    left: 40px;
+                }
+            }
+        }
+
+        .eltdf-si-images {
+
+            &.eltdf-appeared {
+
+                .eltdf-si-first-image,
+                .eltdf-si-third-image {
+                    top: 24px;
+                }
+            }
+        }
+
+        &.eltdf-background-svg {
+
+            &.eltdf-si-position-left {
+
+                .eltdf-si-images {
+
+                    .eltdf-si-first-image {
+                        top: -32px;
+                        right: -64px;
+                        transform: scale(0.7);
+                    }
+                }
+            }
+
+            &.eltdf-si-position-right {
+
+                .eltdf-si-images {
+
+                    .eltdf-si-first-image {
+                        top: -26px;
+                        left: -32px;
+                        transform: scale(0.7);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ==========================================================================
+   Stacked Images responsive style - end
+   ========================================================================== */

@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+    
+    &.eltdf-ps-gallery-layout {
+        
+        .eltdf-ps-image-holder {
+	        width: 100%;
+	        margin: 0 0 -4px;
+	
+	        .eltdf-ps-image {
+		        float: left;
+
+                a {
+                    overflow: hidden;
+
+                    img {
+                        will-change: transform;
+                        transition: transform .5s cubic-bezier(0.48, 0.57, 0.33, 0.89);
+                    }
+
+                    &:hover {
+
+                        img {
+                            transform: scale(1.03);
+                        }
+                    }
+                }
+	        }
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - end
+   ========================================================================== */

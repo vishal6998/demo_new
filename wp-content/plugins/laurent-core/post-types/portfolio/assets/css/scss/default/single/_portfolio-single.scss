@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Portfolio Single page style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+	@include eltdfRelativeHolderLayout();
+	margin: 0 0 50px;
+	
+	.eltdf-ps-content-item {
+		h1, h2, h3, h4, h5, h6 {
+			&:first-of-type {
+				margin-top: 0;
+			}
+		}
+	}
+	
+    .eltdf-ps-image-holder {
+	    @include eltdfRelativeHolderLayout();
+	    
+	    .eltdf-ps-image {
+		    
+		    &:not(.eltdf-item-space) {
+			    @include eltdfRelativeHolderLayout();
+			    box-sizing: border-box;
+		    }
+		    
+		    a, img {
+			    position: relative;
+			    display: block;
+		    }
+		
+		    .eltdf-ps-image-overlay {
+			    display: none;
+		    }
+	    }
+    }
+	
+	.eltdf-ps-info-holder {
+		@include eltdfRelativeHolderLayout();
+		margin-top: 3px;
+		
+		.eltdf-ps-info-item {
+			@include eltdfRelativeHolderLayout();
+			margin: 0 0 15px;
+			
+			p, a {
+				margin: 0;
+			}
+		}
+		
+		.eltdf-ps-info-title {
+			margin: 0;
+			padding-bottom: 5px;
+		}
+	}
+}
+
+/* ==========================================================================
+   Portfolio Single page style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Single page specific style for types - begin
+   ========================================================================== */
+
+.eltdf-portfolio-single-holder {
+	
+	h6.eltdf-ps-info-title,
+	.eltdf-ps-social-share .eltdf-social-share-holder .eltdf-social-title,
+	p.eltdf-ps-info-date {
+		display: inline-block;
+	}
+	
+	&.eltdf-grid-masonry-list {
+	
+		.eltdf-ps-image-holder {
+			
+			.eltdf-ps-image {
+				
+				a {
+					height: 100%;
+				}
+			}
+		}
+	}
+	
+	&.eltdf-ps-small-images-layout,
+	&.eltdf-ps-small-gallery-layout,
+	&.eltdf-ps-small-masonry-layout,
+	&.eltdf-ps-small-slider-layout {
+		.eltdf-ps-navigation {
+			margin-top: 123px;
+		}
+		
+		.eltdf-ps-info-holder {
+			@media (min-width: $laptop-landscape) {
+				padding-left: 30px;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page specific style for types - end
+   ========================================================================== */

@@ -1,0 +1,174 @@
+3.5
+- Added WordPress 6.7.X compatibility
+- Added WooCommerce 9.5.2 compatibility
+- Updated WPBakery Page Builder to 8.1
+- Updated Revolution Slider to 6.7.25
+
+3.4.1
+- Updated Swiper script to v8.4.5
+- Updated Laurent Core plugin to 2.4.3
+
+3.4
+- Added WordPress 6.6.X compatibility
+- Added WooCommerce 9.2.3 compatibility
+- Updated WPBakery Page Builder to 7.9
+- Updated Revolution Slider to 6.7.18
+- Updated Laurent Core plugin to 2.4.2
+- Improved QODE Quick View for WooCommerce plugin compatibility
+- Improved PHP 8.2 compatibility
+- Improved Google Maps API
+
+3.3
+- Added QODE Quick View for WooCommerce plugin as required
+- Added WordPress 6.5.3 compatibility
+- Added WooCommerce 8.8.3 compatibility
+- Updated WPBakery Page Builder to 7.6
+- Updated Revolution Slider to 6.7.10
+
+3.2.2
+- Fixed call to undefined function error when QODE Wishlist for WooCommerce is not installed
+
+3.2.1
+- Improved QODE Wishlist for WooCommerce plugin compatiblity
+
+3.2
+- Added QODE Wishlist for WooCommerce plugin as required
+- Added WordPress 6.4.3 compatibility
+- Added WooCommerce 8.7.0 compatibility
+- Updated WPBakery Page Builder to 7.5
+- Updated Revolution Slider to 6.6.20
+- Removed Laurent Twitter Feed Plugin due to Twitter API changes
+
+3.1
+- Added WordPress 6.2.2 compatibility
+- Added WooCommerce 7.8.0 compatibility
+- Updated WPBakery Page Builder to 6.13.0
+- Updated Revolution Slider to 6.6.14
+- Updated Laurent Core plugin to 2.4.1
+- Improved cart table responsive styles
+- Improved Google Maps API with callback function
+- Fixed issues with image-related options within single image shortcode when using Elementor
+- Fixed Elementor stacked images appear options not working properly
+- Fixed Vertical Split Slider pagination bug
+- Changed elementor_widgets register hook
+
+3.0
+- Added WordPress 6.1.1 compatibility
+- Added WooCommerce 7.3.0 compatibility
+- Added Disable Google Fonts option and functionality
+- Updated Laurent Core plugin to 2.4
+- Updated WPBakery Page Builder to 6.10.0
+- Updated Revolution Slider to 6.6.10
+- Fixed Video Button video link issue
+- Improved theme framework functions
+
+2.9
+- Added Qi Blocks as required plugin
+- Added Gutenberg demo import option
+- Added third link option for 'Image with text' shortcode
+- Updated Laurent Core plugin to 2.3
+- Updated Revolution Slider to 6.5.31
+- Updated Laurent Child theme to 1.0.1
+- Fixed import when different page builders are in use and/or active
+- Fixed Child Theme CSS priority
+- Fixed text domain for certain labels
+
+2.8
+- Added WordPress 6.0 compatibility
+- Added WooCommerce 6.6.1 compatibility
+- Updated WPBakery Page Builder to 6.9.0
+- Updated Revolution Slider to 6.5.25
+- Updated Laurent Core plugin to 2.2
+- Updated Laurent Instagram Feed plugin to 2.0.3
+- Updated Laurent Twitter Feed plugin to 1.1.2
+- Fixed Elementor Deprecated Function _register_controls
+- Removed unused file instagram-redirect.php from Laurents Instagram Widget plugin
+- Removed unused file twitter-redirect.php from Laurents Twitter Feed plugin
+
+2.7
+- Added WordPress 5.9.2 compatibility
+- Added WooCommerce 6.3.1 compatibility
+- Updated WPBakery Page Builder to 6.8.0
+- Updated Revolution Slider plugin to 6.5.18
+- Updated Laurent Core plugin to 2.1.1
+- Fixed cart styles on mobile
+- Fixed 'Bulk Select' functionality with Menus
+- Fixed potential security issue
+- Fixed Gutenberg Meta Boxes
+- Improved import in PHP8
+
+2.6.1
+- Added additional fix for Custom Sidebars
+
+2.6
+- Added WordPress 5.8 compatibility
+- Added WooCommerce 5.6.0 compatibility
+- Updated WPBakery Page Builder to 6.7.0
+- Updated Revolution Slider plugin to 6.5.7
+- Fixed creation of the Custom Sidebars in new Widgets layout
+
+2.5
+- Added WordPress 5.7.2 compatibility
+- Added WooCommerce 5.4.0 compatibility
+- Updated Laurent Core plugin to 2.1
+- Updated Laurent Instagram Feed plugin to 2.0.2
+- Updated Laurent Twitter Feed plugin to 1.1.1
+- Fixed countdown calculation
+- Fixed revolution slider preview functionality
+- Fixed display of Featured Products
+- Improved PHP8 compatibility
+- Improved theme registration to block Shortcodes and CPT loading if the theme is not registered
+
+2.4.1
+- Updated Revolution Slider plugin to 6.4.11
+- Updated Laurent Core to 2.0.4
+
+2.4
+- Added compatibility with Qi Addons for Elementor plugin
+- Added WordPress 5.7.1 compatibility
+- Added WooCommerce 5.2.2 compatibility
+- Updated WPBakery Page Builder to 6.6.0
+- Updated Revolution Slider plugin to 6.4.8
+- Updated Laurent Core to 2.0.3
+- Fixed Reservation Form bug
+
+2.3
+- Updated Laurent Instagram to 2.0.1
+- Updated WPBakery page builder to 6.4.1
+- Fixed Instagram feed for business accounts
+
+2.2
+- Updated Laurent Instagram to 2.0
+- Updated Revolution Slider to 6.2.23
+- Updated WPBakery page builder to 6.4.0
+
+2.1
+- Added WordPress 5.5 compatibility
+- Added WooCommerce 4.4.1 compatibility
+- Added Grid Lines Color option
+- Added Grid Lines on Page Sides Color option
+- Updated Revolution Slider to 6.2.22
+- Updated WPBakery page builder to 6.3.0
+- Updated Laurent Core to 2.0.2
+
+2.0.1
+- Added WooCommerce 4.2.0 compatibility
+- Updated Laurent Core to 2.0.1
+- Updated Revolution Slider to 6.2.12
+- Fixed Elementor fields import
+- Fixed NaN value - WooCommerce quantity input fields
+- Removed unnecessary tag from WooCommerce cart widgets
+
+2.0
+- Added Elementor compatibility
+- Added 'Enable Bottom Double Custom Link Functionality' option for Image with text shortcode
+- Added 'Breadcrumb Shortener' and 'Number of Words in Breadcrumbs' options in Laurent Options -> Blog -> Blog Single
+- Added WooCommerce 4.1.1 compatibility
+- Updated Laurent Core to 2.0
+- Updated Laurent Instagram Feed to 1.1
+- Updated Laurent Twitter Feed to 1.1
+- Updated Revolution Slider to 6.2.9
+- Updated WPBakery page builder to 6.2.0
+
+1.0.1
+- Sidearea laptops scroll problem fixed

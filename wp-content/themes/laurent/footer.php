@@ -1,0 +1,1 @@
+<?php do_action( 'laurent_elated_get_footer_template' );

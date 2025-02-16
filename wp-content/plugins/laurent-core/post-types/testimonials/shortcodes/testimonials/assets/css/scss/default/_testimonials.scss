@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Testimonials shortcode style - begin
+   ========================================================================== */
+
+.eltdf-testimonials-holder {
+    @include eltdfRelativeHolderLayout();
+
+    .eltdf-testimonials-mark {
+        display: block;
+        margin: 0 auto;
+        width: 35px;
+        height: 33px;
+        background-image: url('../../post-types/testimonials/shortcodes/testimonials/assets/img/quote-mark.png');
+    }
+
+    &.eltdf-testimonials-light {
+
+        .eltdf-testimonials-mark {
+            background-image: url('../../post-types/testimonials/shortcodes/testimonials/assets/img/quote-mark-light.png');
+        }
+    }
+    
+    .eltdf-testimonials,
+    .eltdf-testimonial-content,
+    .eltdf-testimonial-text-holder {
+        @include eltdfRelativeHolderLayout();
+    }
+
+    .eltdf-testimonial-text-holder {
+        cursor: grab;
+    }
+
+    .eltdf-testimonials {
+        padding: 0 165px;
+        box-sizing: border-box;
+    }
+
+    .eltdf-testimonial-image {
+
+        img {
+            width: auto !important;
+            border-radius: 5em;
+        }
+    }
+
+    .owl-nav {
+
+        .owl-prev,
+        .owl-next {
+            top: calc(36% + 7px);
+        }
+
+        .owl-prev {
+            left: 115px;
+        }
+
+        .owl-next {
+            right: 115px;
+        }
+        
+        @include phone-landscape {
+            .owl-prev {
+                left: 0;
+            }
+    
+            .owl-next {
+                right: 0;
+            }
+        }
+    }
+    
+    .owl-dots {
+        margin-top: 46px;
+    }
+}
+/* ==========================================================================
+   Testimonials shortcode style - end
+   ========================================================================== */

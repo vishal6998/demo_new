@@ -1,0 +1,140 @@
+/* ==========================================================================
+   Button shortcode style - begin
+   ========================================================================== */
+
+.eltdf-btn {
+    @include eltdfButtonDefaultStyle();
+    @include eltdfButtonSize();
+    cursor: pointer;
+    
+    &.eltdf-btn-simple {
+        padding: 0 !important;
+        color: $default-text-color;
+        background-color: transparent;
+        border: 0;
+        vertical-align: middle;
+        line-height: 2.3em;
+        @include eltdfSimpleButtonAnimationDefault();
+
+        .eltdf-btn-text {
+            display: inline-block;
+            vertical-align: middle;
+            padding-bottom: 4px;
+        }
+
+        &:hover {
+            @include eltdfSimpleButtonAnimationHover();
+        }
+
+        &:not(.eltdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: $default-text-color !important;
+        }
+
+        &:not(.eltdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.eltdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: transparent !important;
+        }
+    }
+
+    &.eltdf-btn-solid {
+        @include eltdfButtonSolidColor();
+
+        &:not(.eltdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: $default-text-color !important;
+        }
+
+        &:not(.eltdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.eltdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $first-main-color !important;
+        }
+    }
+
+    &.eltdf-btn-outline {
+	    @include eltdfButtonOutlineColor();
+        @include eltdfOutlineButtonAnimation();
+
+        &:not(.eltdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: $default-text-color !important;
+        }
+
+        &:not(.eltdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.eltdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $first-main-color !important;
+        }
+    }
+
+    &.eltdf-btn-special {
+        padding: 7px 49px;
+        color: $default-text-color;
+        background-color: transparent;
+        border: 1px solid $first-main-color;
+
+        @include eltdfSpecialButtonAnimation();
+
+        &:not(.eltdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: $default-text-color !important;
+        }
+
+        &:not(.eltdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.eltdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $first-main-color !important;
+        }
+    }
+    
+    &.eltdf-btn-small {
+        @include eltdfButtonSize(small);
+    }
+    
+    &.eltdf-btn-large {
+        @include eltdfButtonSize(large);
+    }
+    
+    &.eltdf-btn-huge {
+        @include eltdfButtonSize(huge);
+    }
+
+    &.eltdf-btn-icon {
+
+        > i,
+        > span:not(.eltdf-btn-text) {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 0 4px;
+            font-size: 1.142857142857143em;
+            line-height: inherit;
+
+            &:before {
+                display: block;
+                line-height: inherit;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Button shortcode style - end
+   ========================================================================== */

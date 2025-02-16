@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Section Title shortcode styles - begin
+   ========================================================================== */
+
+.eltdf-section-title-holder {
+    @include eltdfRelativeHolderLayout();
+	box-sizing: border-box;
+
+    &.eltdf-st-decor-animation {
+
+        .decor {
+	        top:-1px;
+
+            svg {
+
+                path {
+                    stroke-dashoffset: 57;
+                    stroke-dasharray: 57;
+                }
+            }
+
+            &:last-of-type {
+                transform: rotate(180deg);
+            }
+        }
+
+        &.eltdf-appear {
+
+            .decor {
+
+                svg {
+
+                    path {
+                        animation: 1.2s eltdfDrawDecor forwards;
+                    }
+                }
+            }
+        }
+
+        @keyframes eltdfDrawDecor {
+            from {
+                stroke-dashoffset: 57;
+                stroke-dasharray: 57;
+            }
+
+            to {
+                stroke-dashoffset: 0;
+                stroke-dasharray: 57;
+            }
+        }
+    }
+	
+	.eltdf-st-tagline {
+		@include eltdfDefaultScriptStyle();
+		color: $first-main-color;
+		display: block;
+		margin-bottom: 13px;
+	}
+	
+	.eltdf-st-title-holder {
+		display: inline-flex;
+		align-items: center;
+		position: relative;
+		
+		.decor {
+			color: $first-main-color;
+			position: relative;
+
+			&:first-of-type {
+				left: -30px;
+			}
+
+			&:last-of-type {
+				right: -20px; //Title text has letter spacing
+			}
+		}
+	
+	    .eltdf-st-title {
+	        margin: 0;
+		}
+    }
+	
+	&.eltdf-st-title-wrapped {
+		.eltdf-st-title {
+			width: min-content;
+		}
+	}
+    
+    .eltdf-st-text {
+	    display: block;
+        margin: 19px 0 0;
+    }
+	
+	.eltdf-st-button {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		
+		.eltdf-btn {
+			margin-top: 34px;
+		}
+	}
+}
+/* ==========================================================================
+   Section Title shortcode styles - end
+   ========================================================================== */
+
+

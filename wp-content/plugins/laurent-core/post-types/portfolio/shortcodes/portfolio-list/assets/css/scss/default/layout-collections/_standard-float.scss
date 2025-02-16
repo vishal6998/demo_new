@@ -1,0 +1,53 @@
+/* ==========================================================================
+  Portfolio Item Layout - Standard Float style - begin
+  ========================================================================== */
+
+.eltdf-portfolio-list-holder {
+	
+	&.eltdf-pl-standard-float {
+		
+		.eltdf-pli-text-holder {
+			display: none;
+		}
+	}
+	
+}
+
+.eltdf-pl-follow-info-holder {
+	margin: 35px 0 0 -5px;
+	position: fixed;
+	top: 50%;
+	left: 100%;
+	width: auto;
+	height: auto;
+	opacity: 0;
+	z-index: 9999;
+	pointer-events: none;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+	
+	&.eltdf-is-active {
+		opacity: 1;
+	}
+	
+	.eltdf-pl-follow-info-inner {
+		background-color: $additional-background-color;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0;
+	}
+	
+	.eltdf-pl-follow-info-title {
+		position: relative;
+		display: block;
+		padding: 27px 40px 24px;
+		@include eltdfHeadingStyle(h6, $margins:false);
+		white-space: nowrap;
+		z-index: 8;
+		line-height: 1em;
+	}
+}
+
+/* ==========================================================================
+   Portfolio Item Layout - Standard Float style - end
+   ========================================================================== */

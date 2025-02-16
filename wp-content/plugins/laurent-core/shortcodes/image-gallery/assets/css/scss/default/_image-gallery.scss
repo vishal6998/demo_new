@@ -1,0 +1,286 @@
+/* ==========================================================================
+   Image Gallery shortcode style - begin
+   ========================================================================== */
+
+.eltdf-image-gallery {
+	@include eltdfRelativeHolderLayout();
+	
+	&.eltdf-has-shadow {
+	
+		.eltdf-ig-image-inner {
+			box-shadow: $default-box-shadow;
+		}
+		
+		&.eltdf-ig-slider-type,
+		&.eltdf-ig-carousel-type {
+			
+			.owl-stage-outer {
+				padding: 0 0 20px;
+			}
+			
+			.eltdf-ig-image {
+				box-shadow: $default-box-shadow;
+			}
+		}
+	}
+	
+	.eltdf-ig-image {
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.eltdf-ig-image-inner {
+		@include eltdfRelativeHolderLayout();
+	}
+	
+	.eltdf-ig-slider {
+		@include eltdfRelativeHolderLayout();
+
+        .owl-item {
+
+            .eltdf-ig-image {
+                overflow: hidden;
+
+                img {
+                    transform: scale(1);
+                    transition: transform .5s cubic-bezier(0.63, 0.25, 0.25, 1);
+                }
+            }
+
+            &.active {
+
+                .eltdf-ig-image {
+
+                    img {
+                        transform: scale(1.05);
+                        transition: transform 1s cubic-bezier(0.63, 0.25, 0.25, 1);
+                    }
+                }
+            }
+        }
+		
+		&.eltdf-owl-slider .owl-nav .owl-prev {
+			left: -75px;
+		}
+		
+		&.eltdf-owl-slider .owl-nav .owl-next {
+			right: -75px;
+		}
+		
+		@media (min-width: 1367px) and (max-width: 1440px) {
+			&.eltdf-owl-slider .owl-nav .owl-prev {
+				left: -55px;
+			}
+			
+			&.eltdf-owl-slider .owl-nav .owl-next {
+				right: -55px;
+			}
+		}
+		
+		.owl-dots {
+			margin-top: 57px;
+		}
+		
+		&.eltdf-slider-has-both-nav {
+			margin-bottom: 90px; //Compensate for dots being positioned absolute
+			
+			.owl-nav {
+				.owl-prev,
+				.owl-next {
+					transform: translateY(-50%);
+					
+					span {
+						font-size: 0;
+					}
+				}
+			}
+			
+			.owl-dots {
+				position: absolute;
+				width: 100%;
+			}
+		}
+	}
+	
+	/***** Image Gallery Masonry Style - begin *****/
+	
+	&.eltdf-ig-masonry-type {
+		
+		.eltdf-ig-image {
+			
+			&.eltdf-fixed-masonry-item {
+				
+				.eltdf-ig-image-inner,
+				a {
+					height: 100%;
+				}
+			}
+		}
+	}
+	
+	/***** Image Gallery Masonry Style - end *****/
+	
+	/***** Custom Link Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-custom-link {
+		
+		.eltdf-ig-image {
+			
+			.eltdf-ig-image-inner {
+				width: auto;
+			}
+			
+			a {
+                @include eltdfIconOverlay($offset:30px);
+                opacity: 1;
+                -webkit-clip-path: inset(0 0 100% 0);
+                clip-path: inset(0 0 100% 0);
+                transition: .2s cubic-bezier(0.48, 0.57, 0.33, 0.89);
+
+                svg {
+
+                    line {
+                        stroke-dashoffset: 45;
+                        stroke-dasharray: 45;
+                        transition: all .3s ease .2s;
+                    }
+                }
+            }
+
+            &:hover {
+
+                a {
+                    -webkit-clip-path: inset(0 0 0 0);
+                    clip-path: inset(0 0 0 0);
+                    transition: .4s cubic-bezier(0.48, 0.57, 0.33, 0.89);
+
+                    svg {
+
+                        line {
+                            stroke-dashoffset: 0;
+                            stroke-dasharray: 45;
+                        }
+                    }
+                }
+            }
+		}
+	}
+	
+	/***** Custom Link Behavior Style - end *****/
+	
+	/***** Lightbox Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-lightbox {
+		
+		.eltdf-ig-image {
+			
+			.eltdf-ig-image-inner {
+				width: auto;
+			}
+			
+			a {
+                @include eltdfIconOverlay($offset:30px);
+                opacity: 1;
+                -webkit-clip-path: inset(0 0 100% 0);
+                clip-path: inset(0 0 100% 0);
+                transition: .2s cubic-bezier(0.48, 0.57, 0.33, 0.89);
+
+                svg {
+
+                    line {
+                        stroke-dashoffset: 45;
+                        stroke-dasharray: 45;
+                        transition: all .3s ease .2s;
+                    }
+                }
+            }
+
+            &:hover {
+
+                a {
+                    -webkit-clip-path: inset(0 0 0 0);
+                    clip-path: inset(0 0 0 0);
+                    transition: .4s cubic-bezier(0.48, 0.57, 0.33, 0.89);
+
+                    svg {
+
+                        line {
+                            stroke-dashoffset: 0;
+                            stroke-dasharray: 45;
+                        }
+                    }
+                }
+            }
+		}
+	}
+	
+	/***** Lightbox Behavior Style - end *****/
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-zoom {
+		
+		.eltdf-ig-image {
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					transform: scale(1.04);
+				}
+			}
+			
+			.eltdf-ig-image-inner {
+				overflow: hidden;
+			}
+			
+			img {
+				transform: scale(1);
+				transition: transform .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.eltdf-image-behavior-grayscale {
+		
+		.eltdf-ig-image {
+			overflow: hidden;
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				transition: all .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+}
+/* ==========================================================================
+   Image Gallery shortcode style - end
+   ========================================================================== */

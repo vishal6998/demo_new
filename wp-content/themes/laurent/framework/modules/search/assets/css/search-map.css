@@ -1,0 +1,248 @@
+/* ==========================================================================
+   Search styles - begin
+   ========================================================================== */
+/* ==========================================================================
+# Search opener - begin
+========================================================================== */
+.eltdf-search-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 1;
+  margin: 0 10px;
+}
+
+.eltdf-search-opener .eltdf-search-opener-wrapper {
+  display: block;
+}
+
+.eltdf-search-opener .eltdf-search-opener-wrapper > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.eltdf-search-opener .eltdf-search-opener-wrapper > *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.eltdf-search-opener.eltdf-search-opener-svg-path .eltdf-search-opener-wrapper > * {
+  vertical-align: middle;
+}
+
+.eltdf-search-opener.eltdf-search-opener-svg-path .eltdf-search-opener-wrapper > *,
+.eltdf-search-opener.eltdf-search-opener-svg-path .eltdf-search-opener-wrapper path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.eltdf-light-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-search-opener,
+.eltdf-light-header .eltdf-top-bar .eltdf-search-opener {
+  color: #ffffff !important;
+}
+
+.eltdf-light-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-search-opener:hover,
+.eltdf-light-header .eltdf-top-bar .eltdf-search-opener:hover {
+  color: #fff !important;
+}
+
+.eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-search-opener,
+.eltdf-dark-header .eltdf-top-bar .eltdf-search-opener {
+  color: #000 !important;
+}
+
+.eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-search-opener:hover,
+.eltdf-dark-header .eltdf-top-bar .eltdf-search-opener:hover {
+  color: #000 !important;
+}
+
+/* ==========================================================================
+# Search opener - end
+========================================================================== */
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+.eltdf-search-page-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 80px;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 30px;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-search-title {
+  margin: 0 0 20px;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-search-label {
+  display: block;
+  font-size: 13px;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 10px;
+  clear: both;
+  border: 1px solid #715b3e;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-column-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-column-right {
+  display: table-cell;
+  width: 1%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-field {
+  position: relative;
+  width: 100%;
+  height: 52px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 19px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-field::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-field:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-field::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-field:-ms-input-placeholder {
+  color: inherit;
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-submit {
+  position: relative;
+  display: inline-block;
+  width: 57px;
+  height: 52px;
+  line-height: 40px;
+  padding: 0;
+  font-size: 15px;
+  color: #c9ab81;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.eltdf-search-page-holder .eltdf-search-page-form .eltdf-form-holder .eltdf-search-submit:hover {
+  color: #c9ab81;
+}
+
+.eltdf-search-page-holder article {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 30px 0;
+  margin: 0;
+  border-bottom: 1px solid #715b3e;
+}
+
+.eltdf-search-page-holder article.sticky .eltdf-post-title a {
+  color: #c9ab81;
+}
+
+.eltdf-search-page-holder article.page .eltdf-post-title-area .eltdf-post-info > div.eltdf-post-info-category {
+  display: none;
+}
+
+.eltdf-search-page-holder article .eltdf-post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.eltdf-search-page-holder article .eltdf-post-image {
+  display: block;
+  float: left;
+  width: 130px;
+}
+
+.eltdf-search-page-holder article .eltdf-post-image a, .eltdf-search-page-holder article .eltdf-post-image img {
+  display: block;
+}
+
+.eltdf-search-page-holder article .eltdf-post-title-area {
+  min-height: 130px;
+  padding: 0 0 0 150px;
+}
+
+.eltdf-search-page-holder article .eltdf-post-title-area.eltdf-no-thumbnail {
+  padding: 0;
+  min-height: inherit;
+}
+
+.eltdf-search-page-holder article .eltdf-post-title-area .eltdf-post-title-area-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.eltdf-search-page-holder article .eltdf-post-title-area .eltdf-post-title-area-inner .eltdf-post-title {
+  margin: 0;
+}
+
+.eltdf-search-page-holder article .eltdf-post-title-area .eltdf-post-title-area-inner .eltdf-post-excerpt {
+  margin: 7px 0 0;
+}
+
+.eltdf-search-page-holder .eltdf-blog-pagination {
+  margin: 50px 0 0;
+}
+
+/* ==========================================================================
+# Search template style - end
+========================================================================== */
+/* ==========================================================================
+   Search styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=search-map.css.map */

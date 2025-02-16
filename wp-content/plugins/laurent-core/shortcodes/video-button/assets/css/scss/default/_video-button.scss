@@ -1,0 +1,136 @@
+/* ==========================================================================
+   Video Button shortcode start styles
+   ========================================================================== */
+
+.eltdf-video-button-holder {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+	&.eltdf-vb-has-img {
+		
+		.eltdf-video-button-play,
+		.eltdf-video-button-play-image {
+			@include eltdfAbsoluteHolderLayout();
+			z-index: 1;
+			
+			.eltdf-video-button-play-inner {
+				position: relative;
+				top: 50%;
+				left: 0;
+				display: block;
+				text-align: center;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	
+	.eltdf-video-button-image {
+		@include eltdfRelativeHolderLayout();
+		
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	
+	.eltdf-video-button-play,
+	.eltdf-video-button-play-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		z-index: 1;
+	}
+	
+	.eltdf-video-button-play {
+		color: $default-heading-color;
+		font-size: 97px;
+		line-height: 1;
+		
+		&:hover {
+
+			.eltdf-popout {
+                stroke-dashoffset: 0;
+                stroke-dasharray: 258;
+                transition: all .7s ease;
+			}
+		}
+		
+		span {
+			display: block;
+			line-height: inherit;
+			
+			svg {
+				height: 1em;
+				width: 1em;
+
+                circle {
+                    stroke-width: 1.4;
+
+                    &.eltdf-popout {
+                        fill: none;
+                        stroke: currentColor;
+                        stroke-dashoffset: 258;
+                        stroke-dasharray: 258;
+                        stroke-linejoin: round;
+                        stroke-miterlimit: 10;
+                        stroke-linecap: butt;
+                        transform: rotate(-90deg);
+                        transform-origin: center;
+                        transition: all .7s ease;
+                    }
+                }
+
+                polygon {
+                    stroke-width: 1.4;
+                }
+			}
+		}
+	}
+	
+	.eltdf-video-button-play-image {
+		
+		&.eltdf-vb-has-hover-image {
+			
+			&:hover {
+				
+				img {
+					
+					&:first-child {
+						opacity: 0;
+					}
+					
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			transition: opacity .3s ease-in-out;
+			
+			&:first-child {
+				position: relative;
+				opacity: 1;
+			}
+			
+			&:nth-child(2) {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				opacity: 0;
+				transform: translateX(-50%) translateZ(0);
+				
+				.rev_slider_wrapper & {
+					transform: translateZ(0);
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Video Button shortcode end styles
+   ========================================================================== */

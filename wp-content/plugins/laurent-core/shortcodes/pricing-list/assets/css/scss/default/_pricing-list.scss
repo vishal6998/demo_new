@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Pricing List shortcode styles - begin
+   ========================================================================== */
+
+.eltdf-pricing-holder {
+
+    .eltdf-pricing-item {
+        margin-bottom: 37px;
+    }
+
+    .eltdf-pricing-title,
+    .eltdf-pricing-price {
+        display: table-cell;
+        width: 1%;
+        white-space: nowrap;
+    }
+
+    .eltdf-pricing-main {
+        color: $first-main-color;
+    }
+
+    .eltdf-pricing-title {
+        color: inherit;
+        padding-right: 5px;
+        margin: 0;
+    }
+
+    .eltdf-pricing-price {
+        @include eltdfHeadingStyle(h5);
+        letter-spacing: 0.03em;
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    .eltdf-pricing-lines {
+        display: table-cell;
+        width: 98%;
+        border-bottom: 1px solid $default-border-color;
+        position: relative;
+        bottom: 8px;
+	    
+	    &:before {
+		    content: '';
+		    position: absolute;
+		    bottom: 5px;
+		    width: 100%;
+		    border-bottom: 1px solid $default-border-color;
+	    }
+    }
+
+    .eltdf-pricing-desc {
+        margin: 4px 0 0;
+    }
+
+    .eltdf-pricing-img {
+	    position: relative;
+	    top: -2px;
+        display: table-cell;
+	    float: left;
+        white-space: nowrap;
+        padding-right: 25px;
+
+        img {
+            max-width: 60px;
+            vertical-align: bottom;
+        }
+    }
+}
+/* ==========================================================================
+   Pricing List shortcode styles - end
+   ========================================================================== */
+
+

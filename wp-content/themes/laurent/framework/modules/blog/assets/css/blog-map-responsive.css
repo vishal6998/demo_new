@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Blog responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .eltdf-related-posts-holder .eltdf-related-post {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .eltdf-related-posts-holder .eltdf-related-post {
+    width: 100% !important;
+  }
+}
+
+/* ==========================================================================
+   Blog responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=blog-map-responsive.css.map */

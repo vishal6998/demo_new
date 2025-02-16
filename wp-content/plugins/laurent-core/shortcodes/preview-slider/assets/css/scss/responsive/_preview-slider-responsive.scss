@@ -1,0 +1,90 @@
+/* ==========================================================================
+# Preview Slider - begin
+========================================================================== */
+@include ipad-landscape {
+	
+	.eltdf-preview-slider {
+		display: block;
+
+		.eltdf-ps-text-holder.right {
+			padding: 0;
+		}
+
+		.eltdf-ps-images-holder {
+			width: 100%;
+			max-width: 100%;
+			display: inline-block;
+			vertical-align: middle;
+			padding: 0;
+
+            .eltdf-ps-laptop-slider {
+                width: 100%;
+            }
+
+            .eltdf-ps-tablet-slider {
+                left: 41%;
+                top: 9.8%;
+                width: 100%;
+            }
+
+            .eltdf-ps-mobile-slider {
+                width: 100%;
+                height: 100%;
+                left: 56%;
+            }
+
+			.eltdf-ps-tablet-holder {
+				width: 30%;
+			}
+			
+			.eltdf-ps-mobile-holder {
+				width: 16%;
+				left: 320px;
+				bottom: 35px;
+			}
+
+            .eltdf-ps-laptop-frame,
+            .eltdf-ps-tablet-frame,
+            .eltdf-ps-phone-frame,
+            .eltdf-ps-phone-mask {
+                max-width: initial;
+            }
+		}
+	}
+}
+
+@include ipad-portrait {
+
+	.eltdf-preview-slider {
+		
+		.eltdf-ps-images-holder-inner {
+			display: block;
+
+			.eltdf-ps-tablet-holder, .eltdf-ps-mobile-holder {
+				display: none;
+			}
+
+			.eltdf-ps-laptop-holder {
+				width: 90%;
+				display: block;
+				margin: 20px auto;
+				
+				> img {
+					z-index: 1;
+				}
+
+                .eltdf-ps-laptop-frame {
+                    max-width: 100%;
+                }
+
+                .eltdf-ps-laptop-slider {
+                    width: 71.5%;
+                }
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+# Preview Slider - end
+========================================================================== */

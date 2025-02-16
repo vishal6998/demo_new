@@ -1,0 +1,285 @@
+/* ==========================================================================
+   Portfolio Slider shortcode style - begin
+   ========================================================================== */
+
+.eltdf-portfolio-slider-holder {
+    @include eltdfRelativeHolderLayout();
+		
+	&.eltdf-pfs-fullscreen {
+		overflow: hidden;
+		
+		article,
+		.eltdf-pl-item-inner {
+			height: 100%;
+		}
+		
+		.eltdf-pli-image {
+			height: 100%;
+			
+			a, img {
+				height: 100%;
+				max-width: 100vw;
+			}
+			
+			img {
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		
+		.eltdf-pli-text-wrapper {
+			display: none;
+		}
+		
+		.eltdf-disable-bottom-space {
+			margin: 0 !important;
+		}
+	}
+	
+	.eltdf-portfolio-list-holder {
+		
+		.swiper-wrapper {
+			margin: 0 !important;
+		}
+		
+		article {
+			padding: 0 !important; //Added in js
+
+            .eltdf-pl-item-inner {
+                overflow: hidden;
+
+                .eltdf-pli-image {
+                    transform: scale(1.25);
+                }
+            }
+		}
+		
+		&.eltdf-auto-width {
+
+			article {
+				width: auto !important;
+			}
+		}
+		
+		.swiper-button-prev,
+		.swiper-button-next {
+			position: absolute;
+			top: 50%;
+			padding: 0;
+			margin: 0;
+			color: $default-heading-color;
+			background: none;
+			border: 0;
+			border-radius: 0;
+			outline: none;
+			-webkit-appearance: none;
+			z-index: 3;
+			transform: translateY(-50%);
+			transition: color .2s ease-out;
+			
+			&:hover {
+				color: $first-main-color;
+			}
+			
+			> span {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 46px;
+				line-height: 1;
+				
+				&:before {
+					display: block;
+					line-height: inherit;
+				}
+				
+				svg {
+					stroke: $first-main-color;
+				}
+			}
+		}
+		
+		.swiper-button-prev {
+			left: 30px;
+			
+			> span {
+				@include eltdfPopoutSVGArrows();
+			}
+			
+			&:hover {
+				
+				> span {
+					@include eltdfPopoutSVGArrowsHover();
+				}
+			}
+		}
+		
+		.swiper-button-next {
+			right: 30px;
+			
+			> span {
+				@include eltdfPopoutSVGArrows();
+			}
+			
+			&:hover {
+				
+				> span {
+					@include eltdfPopoutSVGArrowsHover();
+				}
+			}
+		}
+		
+		.swiper-pagination {
+			display: flex;
+			flex-direction: row;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
+			
+			.swiper-pagination-bullet {
+				margin: 0 6px;
+				width: 11px;
+				height: 11px;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				border: none;
+				background-color: transparent;
+				opacity: 1;
+				border-radius: 0;
+				
+				&:after {
+					content: '';
+					width: 4px;
+					height: 4px;
+					background-color: $first-main-color;
+					border-radius: 50%;
+					border: 1px solid $first-main-color;
+					transition: all .2s ease-in-out;
+				}
+				
+				&.swiper-pagination-bullet-active,
+				&:hover {
+					background-color: transparent;
+					
+					&:after {
+						width: 10px;
+						height: 9px;
+						background-color: transparent;
+					}
+				}
+				
+				.eltdf-light & {
+					
+					&:after {
+						background-color: #fff;
+						border: 1px solid #fff;
+					}
+					
+					&.swiper-pagination-bullet-active,
+					&:hover {
+						background-color: transparent;
+						
+						&:after {
+							background-color: transparent;
+						}
+					}
+				}
+			}
+		}
+
+		&.eltdf-nav-light-skin {
+
+			.swiper-button-prev,
+			.swiper-button-next {
+				color: $header-light-color;
+				
+				&:hover {
+					color: $header-light-hover-color;
+				}
+			}
+		}
+
+		&.eltdf-nav-dark-skin {
+
+			.swiper-button-prev,
+			.swiper-button-next {
+				color: $header-dark-color;
+				
+				&:hover {
+					color: $header-dark-hover-color;
+				}
+			}
+		}
+
+		&.eltdf-pag-light-skin {
+
+			.swiper-pagination {
+
+				.swiper-pagination-bullet {
+					
+					&:after {
+						background-color: rgba($header-light-color, .2);
+					}
+
+					&.swiper-pagination-bullet-active,
+					&:hover {
+						background-color: transparent;
+						
+						&:after {
+							background-color: $header-light-hover-color;
+						}
+					}
+				}
+			}
+		}
+
+		&.eltdf-pag-dark-skin {
+			
+			.swiper-pagination {
+				
+				.swiper-pagination-bullet {
+					
+					&:after {
+						background-color: rgba($header-dark-color, .2);
+					}
+					
+					&.swiper-pagination-bullet-active,
+					&:hover {
+						background-color: transparent;
+
+						&:after {
+							background-color: $header-dark-hover-color;
+						}
+					}
+				}
+			}
+		}
+
+		&.eltdf-pag-on-slider {
+
+			.swiper-button-prev,
+			.swiper-button-next {
+				transform: translateY(-50%);
+			}
+
+			.swiper-pagination {
+				position: absolute;
+				left: 0;
+				bottom: 20px;
+				width: 100%;
+				margin: 0;
+			}
+		}
+		
+		&.eltdf-pag-below-slider {
+			.swiper-pagination {
+				position: relative;
+				padding-top: 30px;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Slider shortcode style - end
+   ========================================================================== */
